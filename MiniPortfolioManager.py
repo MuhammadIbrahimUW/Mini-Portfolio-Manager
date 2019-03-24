@@ -9,7 +9,6 @@ class Stock:
         self.symbol = symbol
         self.prices = [prices]
    
-        
     def __repr__(self):
         '''
         String Representation: Implicitly called by print(s) where s is a Stock
@@ -36,7 +35,6 @@ class Stock:
         '''
         self.prices += lof
         
-    
     def average(self, n):
         '''
         returns the average of the last n prices of the Stock arguement self
